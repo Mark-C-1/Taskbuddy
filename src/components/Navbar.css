@@ -1,0 +1,87 @@
+
+.navbar {
+  background-color: #0d0d0d;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  height: 130px;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbar-links,
+.navbar-action {
+  display: flex;
+  gap: 0.8rem;
+}
+.navbar-links a,
+.navbar-action .protection-btn {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 0.7rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 0.95rem;
+}
+
+.navbar-links a:hover,
+.navbar-action .protection-btn:hover {
+  /* background-color: #00ccff; */
+  background-color: #007bff;
+  color: white;
+}
+
+.shield-icon {
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
