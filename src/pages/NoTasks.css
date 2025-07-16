@@ -1,0 +1,33 @@
+.no-tasks-section {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 500px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+}
+
+.no-tasks-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.add-task-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.add-task-button:hover {
+  background-color: #2980b9;
+}

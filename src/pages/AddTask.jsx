@@ -3,15 +3,21 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { addTask } from '../api/tasks';
 import './AddTask.css'; 
+import { toast } from 'react-toastify';
 
 const AddTask = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
 
-  const onSubmit = async (data) => {
+const onSubmit = async (data) => {
+  try {
     await addTask(data);
+    toast.success('Task added successfully!');
     navigate('/');
-  };
+  } catch (error) {
+    toast.error('Failed to add task.');
+  }
+};
 
   return (
     <form className="add-task-form" onSubmit={handleSubmit(onSubmit)}>

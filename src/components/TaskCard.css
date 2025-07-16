@@ -1,9 +1,65 @@
 .task-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 5px;
+  position: relative;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
-.task-card h3 {
-  margin: 0 0 0.5rem;
+
+.task-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.task-desc {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.task-status {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+.task-actions {
+  position: absolute;
+  top: 37px;
+  right: 32px;
+  display: flex;
+  width: 100px;
+
+  flex-direction: column;
+  gap: 20px;
+}
+.task-btn {
+  background: white;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.task-btn:hover {
+  transform: scale(1.1);
+  background-color: #00bfff;
+  color: white;
+   text-decoration: none;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
 }

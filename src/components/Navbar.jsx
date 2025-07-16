@@ -13,14 +13,7 @@ const Navbar = () => (
           <Link to="/">Home</Link>
           <Link to="/add">Add Task</Link>
           <Link to="/edit">Edit</Link>
-          <Link to="/features">Features</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/faq">FAQ</Link>
-        </div>
-        <div className="navbar-action">
-          <Link to="/protection" className="protection-btn">
-            Login <span className="shield-icon">👤</span>
-          </Link>
+          <Link to="/view">Delete Task</Link>
         </div>
       </div>
     </div>
